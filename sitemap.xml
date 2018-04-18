@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://andywei513.github.io/contact/contact/</loc>
+    <lastmod>2018-04-19T00:03:41+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://andywei513.github.io/post/hello/</loc>
     <lastmod>2018-04-17T00:33:41+08:00</lastmod>
   </url>
@@ -15,6 +20,12 @@
   <url>
     <loc>https://andywei513.github.io/about/</loc>
     <lastmod>2018-04-15T23:47:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://andywei513.github.io/contact/</loc>
+    <lastmod>2018-04-19T00:03:41+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -35,7 +46,7 @@
   
   <url>
     <loc>https://andywei513.github.io/</loc>
-    <lastmod>2018-04-17T00:33:41+08:00</lastmod>
+    <lastmod>2018-04-19T00:03:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
