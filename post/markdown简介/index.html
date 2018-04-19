@@ -396,16 +396,31 @@ import numpy as np
 <p>表格有点麻烦，请看代码：</p>
 </blockquote>
 
-<pre><code class="language-html">| Date | Index | Price |
-|:-------:|:-----|--------:|
-| 2018-1-1 | CSI300 | 3200 |
+<pre><code class="language-html">Date | Index | Price 
+-|-|-
+2018-1-1 | CSI300 | 3200
 
 </code></pre>
 
 <h5 id="效果-6">效果：</h5>
 
-<p>| Date | Index | Price |
-| 2018-1-1 | CSI300 | 3200 |</p>
+<table>
+<thead>
+<tr>
+<th align="center">Date</th>
+<th align="left">Index</th>
+<th align="right">Price</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">2018-1-1</td>
+<td align="left">CSI300</td>
+<td align="right">3200</td>
+</tr>
+</tbody>
+</table>
 
 <h4 id="10-强调">10. 强调</h4>
 
@@ -418,10 +433,9 @@ import numpy as np
 
 <h5 id="效果-7">效果：</h5>
 
-<p><em>斜体</em></p>
+<p><em>斜体</em>
+<strong>加粗</strong></p>
 </blockquote>
-
-<p><strong>加粗</strong></p>
 
 <hr />
 
