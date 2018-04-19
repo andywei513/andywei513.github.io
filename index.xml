@@ -27,8 +27,8 @@
       <pubDate>Thu, 19 Apr 2018 00:38:07 +0800</pubDate>
       
       <guid>https://andywei513.github.io/post/markdown%E7%AE%80%E4%BB%8B/</guid>
-      <description>Markdown用法简介 Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。下面简单介绍下常用语法： 1.标题  标题能显示出文章的结构。行首插入1-6个 # ，每增加一个 # 表示更深入层次的内容，对应到标题的深度由 1-6 阶。如下： - H1 :# Header 1 - H2 :## Header 2 - H3 :### Header 3 - H4 :#### Header 4 - H5 :##### Header 5 - H6 :###### Header 6
- 效果： Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 2.无序列表  可以用&amp;rdquo;- &amp;ldquo;来创建，如下：
+      <description>Markdown用法简介 Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。下面简单介绍下常用语法： 1.标题  标题能显示出文章的结构。行首插入1-6个 # ，每增加一个 # 表示更深入层次的内容，对应到标题的深度由 1-6 阶。如下：
+- H1 :# Header 1 - H2 :## Header 2 - H3 :### Header 3 - H4 :#### Header 4 - H5 :##### Header 5 - H6 :###### Header 6  效果： Header 1 Header 2 Header 3 Header 4 Header 5 Header 6  2.无序列表  可以用&amp;rdquo;- &amp;ldquo;来创建，如下：
 - A - B - C  效果：  A B C   3.</description>
     </item>
     
