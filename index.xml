@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 19 Apr 2018 00:38:07 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Apr 2018 23:11:01 +0800</lastBuildDate>
     
 	<atom:link href="https://andywei513.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Contact</title>
+      <link>https://andywei513.github.io/contact/</link>
+      <pubDate>Thu, 19 Apr 2018 23:11:01 +0800</pubDate>
+      
+      <guid>https://andywei513.github.io/contact/</guid>
+      <description>####联系方式
+ Andy Huang Email:andycfa2@163.com  </description>
+    </item>
     
     <item>
       <title>Markdown简介</title>
@@ -19,15 +29,6 @@
       
       <guid>https://andywei513.github.io/post/markdown%E7%AE%80%E4%BB%8B/</guid>
       <description> Markdown用法简介 </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://andywei513.github.io/contact/</link>
-      <pubDate>Thu, 19 Apr 2018 00:03:41 +0800</pubDate>
-      
-      <guid>https://andywei513.github.io/contact/</guid>
-      <description>####联系方式 - Andy Huang - Email: andycfa2@163.com</description>
     </item>
     
     <item>
