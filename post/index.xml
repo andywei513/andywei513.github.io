@@ -30,14 +30,5 @@
       <description> 欢迎进入我的部落！ 后续会分享我的学习心得，涵盖金融、python、机器学习等领域。 </description>
     </item>
     
-    <item>
-      <title>First</title>
-      <link>https://andywei513.github.io/post/first/</link>
-      <pubDate>Sun, 15 Apr 2018 23:49:14 +0800</pubDate>
-      
-      <guid>https://andywei513.github.io/post/first/</guid>
-      <description> Welcome </description>
-    </item>
-    
   </channel>
 </rss>
