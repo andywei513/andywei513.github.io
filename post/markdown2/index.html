@@ -256,9 +256,29 @@
 
   
 
-<p>[TOC]</p>
+<p><link rel="stylesheet" href="http://yandex.st/highlightjs/6.2/styles/googlecode.min.css"></p>
 
-<h1 id="markdown语法拓展">Markdown语法拓展</h1>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="http://yandex.st/highlightjs/6.2/highlight.min.js"></script>
+  
+
+<script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+ $(document).ready(function(){
+      $("h2,h3,h4,h5,h6").each(function(i,item){
+        var tag = $(item).get(0).localName;
+        $(item).attr("id","wow"+i);
+        $("#category").append('<a class="new'+tag+'" href="#wow'+i+'">'+$(this).text()+'</a></br>');
+        $(".newh2").css("margin-left",0);
+        $(".newh3").css("margin-left",20);
+        $(".newh4").css("margin-left",40);
+        $(".newh5").css("margin-left",60);
+        $(".newh6").css("margin-left",80);
+      });
+ });
+</script>
+<div id="category"></div>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 <h2 id="1-调整内容位置">1. 调整内容位置</h2>
 
@@ -388,40 +408,48 @@
 <p>效果：
 <center></p>
 
-<p>[x] 已完成项目1
-  [x] 已完事项1
-  [x] 已完事项2
-[ ] 未完成项目2
-  [x] 已完成事项1
-  [ ] 未完成事项2</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 已完成项目1
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 已完事项1</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 已完事项2</label></li>
+</ul></label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 未完成项目2
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 已完成事项1</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 未完成事项2</label></li>
+</ul></label></li>
+</ul>
 
 <p></center></p>
 
 <h2 id="6-数学公式">6. 数学公式</h2>
 
-<pre><code class="language-html">- 偏导数： $\frac{\partial^2 u}{\partial z^2}$
+<pre><code class="language-html">- 偏导数： $$\frac{\partial^2 u}{\partial z^2}$$
 
-- 微分与积分: $\int_{a}^{\pi} f(x) \,dx$
+- 微分与积分: $$\int_{a}^{\pi} f(x) \,dx$$
 
-- 分数: $\frac{x^{2}y^{2}}{x+y}$
+- 分数: $$\frac{x^{2}y^{2}}{x+y}$$
 
-- 角标和开方: $c = \sqrt{a^{2}+b_{xy}^{2} +e^{x}}$
+- 角标和开方: $$c = \sqrt{a^{2}+b_{xy}^{2} +e^{x}}$$
 
-- 加: $\sum_{i=0}^\infty i^2$
+- 加: $$\sum_{i=0}^\infty i^2$$
 </code></pre>
 
 <p>效果：</p>
 
 <ul>
-<li><p>偏导数： $\frac{\partial^2 u}{\partial z^2}$</p></li>
+<li><p>偏导数： $$\frac{\partial^2 u}{\partial z^2}$$</p></li>
 
-<li><p>微分与积分: $\int_{a}^{\pi} f(x) \,dx$</p></li>
+<li><p>微分与积分: $$\int_{a}^{\pi} f(x) \,dx$$</p></li>
 
-<li><p>分数: $\frac{x^{2}y^{2}}{x+y}$</p></li>
+<li><p>分数: $$\frac{x^{2}y^{2}}{x+y}$$</p></li>
 
-<li><p>角标和开方: $c = \sqrt{a^{2}+b_{xy}^{2} +e^{x}}$</p></li>
+<li><p>角标和开方: $$c = \sqrt{a^{2}+b_{xy}^{2} +e^{x}}$$</p></li>
 
-<li><p>加: $\sum_{i=0}^\infty i^2$</p></li>
+<li><p>加: $$\sum_{i=0}^\infty i^2$$</p></li>
 </ul>
 
 <blockquote>

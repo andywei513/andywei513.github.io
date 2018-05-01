@@ -18,17 +18,14 @@
       <pubDate>Tue, 01 May 2018 23:10:56 +0800</pubDate>
       
       <guid>https://andywei513.github.io/post/markdown2/</guid>
-      <description>[TOC]
-Markdown语法拓展 1. 调整内容位置  内容居中  &amp;lt;center&amp;gt;居中&amp;lt;/center&amp;gt;  效果： 居中
+      <description>hljs.initHighlightingOnLoad(); $(document).ready(function(){ $(&#34;h2,h3,h4,h5,h6&#34;).each(function(i,item){ var tag = $(item).get(0).localName; $(item).attr(&#34;id&#34;,&#34;wow&#34;+i); $(&#34;#category&#34;).append(&#39;&#39;+$(this).text()+&#39;&#39;); $(&#34;.newh2&#34;).css(&#34;margin-left&#34;,0); $(&#34;.newh3&#34;).css(&#34;margin-left&#34;,20); $(&#34;.newh4&#34;).css(&#34;margin-left&#34;,40); $(&#34;.newh5&#34;).css(&#34;margin-left&#34;,60); $(&#34;.newh6&#34;).css(&#34;margin-left&#34;,80); }); });    1. 调整内容位置  内容居中  &amp;lt;center&amp;gt;居中&amp;lt;/center&amp;gt;  效果： 居中
  内容左对齐
 &amp;lt;p align=&amp;quot;left&amp;quot;&amp;gt;左对齐&amp;lt;/p&amp;gt;  效果： 左对齐
  内容右对齐
 &amp;lt;p align=&amp;quot;right&amp;quot;&amp;gt;右对齐&amp;lt;/p&amp;gt;  效果： 右对齐
   2. 调整字体、颜色及大小  调整字体  &amp;lt;center&amp;gt;&amp;lt;font face=&amp;quot;黑体&amp;quot;&amp;gt;黑体&amp;lt;/font&amp;gt;&amp;lt;/center&amp;gt; &amp;lt;center&amp;gt;&amp;lt;font face=&amp;quot;微软雅黑&amp;quot;&amp;gt;微软雅黑&amp;lt;/font&amp;gt;&amp;lt;/center&amp;gt; &amp;lt;center&amp;gt;&amp;lt;font face=&amp;quot;宋体&amp;quot;&amp;gt;宋体&amp;lt;/font&amp;gt;&amp;lt;/center&amp;gt; &amp;lt;center&amp;gt;&amp;lt;font face=&amp;quot;楷体&amp;quot;&amp;gt;楷体&amp;lt;/font&amp;gt;&amp;lt;/center&amp;gt; &amp;lt;center&amp;gt;&amp;lt;font face=&amp;quot;STCAIYUN&amp;quot;&amp;gt;华文彩云&amp;lt;/font&amp;gt;&amp;lt;/center&amp;gt;  效果：
 黑体 宋体 楷体 微软雅黑 华文彩云
- 调整文字颜色  &amp;lt;font color=#0000FF&amp;gt;蓝色&amp;lt;/font&amp;gt; &amp;lt;font color=#8A2BE2&amp;gt;紫色&amp;lt;/font&amp;gt;  效果： 楷体 紫色
- 注:color中的颜色代码可以参照十六进制颜色代码表，就可以自由选择想要的颜色了。
-  调整文字大小  &amp;lt;font size=5&amp;gt;5号字&amp;lt;/font&amp;gt;  效果： 5号字</description>
+ 调整文字颜色  &amp;lt;font color=#0000FF&amp;gt;蓝色&amp;lt;/font&amp;gt; &amp;lt;font color=#8A2BE2&amp;gt;紫色&amp;lt;/font&amp;gt;  效果： 楷体 紫色</description>
     </item>
     
     <item>
