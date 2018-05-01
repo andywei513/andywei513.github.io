@@ -19,7 +19,7 @@
       
       <guid>https://andywei513.github.io/post/markdown2/</guid>
       <description>[TOC]
-目录 Markdown语法拓展 1. 调整内容位置  内容居中  &amp;lt;center&amp;gt;居中&amp;lt;/center&amp;gt;  效果： 居中
+Markdown语法拓展 1. 调整内容位置  内容居中  &amp;lt;center&amp;gt;居中&amp;lt;/center&amp;gt;  效果： 居中
  内容左对齐
 &amp;lt;p align=&amp;quot;left&amp;quot;&amp;gt;左对齐&amp;lt;/p&amp;gt;  效果： 左对齐
  内容右对齐
