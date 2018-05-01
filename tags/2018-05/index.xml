@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown on 凭海临风</title>
-    <link>https://andywei513.github.io/topics/markdown/</link>
-    <description>Recent content in Markdown on 凭海临风</description>
+    <title>2018 05 on 凭海临风</title>
+    <link>https://andywei513.github.io/tags/2018-05/</link>
+    <description>Recent content in 2018 05 on 凭海临风</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Tue, 01 May 2018 23:10:56 +0800</lastBuildDate>
     
-	<atom:link href="https://andywei513.github.io/topics/markdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andywei513.github.io/tags/2018-05/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -29,17 +29,6 @@
  调整文字颜色  &amp;lt;font color=#0000FF&amp;gt;蓝色&amp;lt;/font&amp;gt; &amp;lt;font color=#8A2BE2&amp;gt;紫色&amp;lt;/font&amp;gt;  效果： 楷体 紫色
  注:color中的颜色代码可以参照十六进制颜色代码表，就可以自由选择想要的颜色了。
   调整文字大小  &amp;lt;font size=5&amp;gt;5号字&amp;lt;/font&amp;gt;  效果： 5号字</description>
-    </item>
-    
-    <item>
-      <title>Markdown初步</title>
-      <link>https://andywei513.github.io/post/markdown%E7%AE%80%E4%BB%8B/</link>
-      <pubDate>Thu, 19 Apr 2018 00:38:07 +0800</pubDate>
-      
-      <guid>https://andywei513.github.io/post/markdown%E7%AE%80%E4%BB%8B/</guid>
-      <description>Markdown用法简介 Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。下面简单介绍下常用语法： 1.标题  标题能显示出文章的结构。行首插入1-6个 # ，每增加一个 # 表示更深入层次的内容，对应到标题的深度由 1-6 阶。如下：
-- H1 :# Header 1 - H2 :## Header 2 - H3 :### Header 3 - H4 :#### Header 4 - H5 :##### Header 5 - H6 :###### Header 6  效果： Header 1 Header 2 Header 3 Header 4 Header 5 Header 6  2.无序列表  可以用&amp;rdquo;- &amp;ldquo;来创建，如下：
-- A - B - C  效果：  A B C   3.</description>
     </item>
     
   </channel>
